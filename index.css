@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: fade-in-out 1s;
+}
+
+@keyframes fade-in-out {
+    from {opacity: 0}
+    to {opacity: 100}
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.705);
+    animation: float-animation 1s infinite;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    margin: 5px;
+    width: 304px;
+    height: 36px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.651);
+}
+
+button {
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(55, 0, 255);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 0px 0px 20px white;
+    transition: 0.24s;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    width: 304px;
+    transition: 0.24s;
+    background: transparent;
+    color: rgb(55, 0, 255);
+}
+
+header, footer {
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+    text-shadow: 0px 0px 20px white,
+                0px 0px 20px black;
+}
+
+#a {
+    color: white;
+    position: relative;
+    bottom: 410px;
+    font-size: 30px;
+    text-decoration-line: none;
+    transition: 0.24s;
+}
+
+#a:hover {
+    font-size: 35px;
+    transition: 0.24s;  
+    text-decoration-line: underline;
+}
+
+#question {
+    position: relative;
+    bottom: 10px;
+    animation: float-animation 1s infinite;
+}
+
+#h1 {
+    animation: animate 1s;
+}
+
+@keyframes animate {
+    from {transform: translateY(-500px)}
+    to {transform: translateY(1px)}
+}
+
+@keyframes float-animation {
+    from {transform: translateY(-5px)}
+    50% {transform: translateY(5px)}
+    to {transform: translateY(-5px)}
+}
+
+footer {
+    height: 100px;
+}
+
+ol {
+    text-align: left;
+}
+
+#paragraph {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+}
+
+#goa {
+    box-shadow: none;
+    filter: drop-shadow(0px 0px 20px black);
+    position: relative;
+    right: 300px;
+    bottom: 250px;
+}
+
+#img {
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+}
+
+header {
+    height: 300px;
+}
+
+#btn {
+    background: white;
+    border: 2px solid white;
+    color: blue;
+    position: relative;
+    height: 100px;
+    width: 190px;
+    bottom: 390px;
+    font-size: xx-large;
+}
+
+#btn:hover {
+    background: transparent;
+    color: white;
+    width: 250px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    transition: 0.24s;
+}
+
+#goa-page {
+    transition: 0.24s;
+}
+
+#goa-page:hover {
+    font-size: 30px;
+    text-decoration: underline;
+    transition: 0.24s;
+}
+
+#facebook-link {
+    transition: 0.24s;
+}
+
+#facebook-link:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 0.24s;
+}
